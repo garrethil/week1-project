@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(good.ttf)
+}
+body{
+    position: relative;
+    font-family: myfont;
+    font-size: 22px;
+    background-color: white;
+    color: rgb(255, 132, 0);
+}
+
+h1, h2 {
+    margin: 15px;
+}
+
+main {
+    padding: 40px 0;
+    margin: 35px;
+}
+
+li {
+    display: inline;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header,
+footer {
+    height: 65px;
+    width: 100%;
+    line-height: 60px;
+    background-color: rgba(61, 61, 61, 0.992);
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+form {
+    margin: auto;
+    width: 350px;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+button {
+    color: green;
+}
+
